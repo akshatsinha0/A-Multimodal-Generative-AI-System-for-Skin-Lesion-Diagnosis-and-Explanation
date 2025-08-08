@@ -1,15 +1,11 @@
 # Project Structure
 
-Generated on: 8/7/2025, 5:43:54 PM
+Generated on: 8/8/2025, 8:22:44 PM
 Root: h:\My Drive\A Multimodal Generative AI System for Skin Lesion Diagnosis and Explanation
-Excluded folders: .git, data, Install_Dusts, venv
+Excluded folders: .git, data, Install_Dusts, src/H, venv
 
 ```
 ├── src/
-│   ├── __pycache__/
-│   │   ├── dataset.cpython-312.pyc
-│   │   ├── desktop.ini
-│   │   └── model.cpython-312.pyc
 │   ├── dataset.py
 │   ├── desktop.ini
 │   ├── main.py
@@ -17,6 +13,7 @@ Excluded folders: .git, data, Install_Dusts, venv
 │   └── train.py
 ├── .gitignore
 ├── desktop.ini
+├── model_weights_20250807_152952.pth
 ├── project-structure.md
 └── requirements.txt
 ```
