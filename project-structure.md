@@ -1,6 +1,6 @@
 # Project Structure
 
-Generated on: 8/8/2025, 8:22:44 PM
+Generated on: 8/8/2025, 8:25:43 PM
 Root: h:\My Drive\A Multimodal Generative AI System for Skin Lesion Diagnosis and Explanation
 Excluded folders: .git, data, Install_Dusts, src/H, venv
 
