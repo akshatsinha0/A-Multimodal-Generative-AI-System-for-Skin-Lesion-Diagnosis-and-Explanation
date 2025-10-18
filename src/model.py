@@ -5,6 +5,7 @@ from torchvision.models import EfficientNet_B3_Weights
 from transformers import BertModel
 
 # --------- Image Encoder ---------
+#pypy log verdict
 class ImageEncoder(nn.Module):
     def __init__(self, freeze=True):
         super(ImageEncoder, self).__init__()
@@ -73,3 +74,4 @@ class MultimodalClassifier(nn.Module):
         fused = self.fusion_module(image_feat, text_feat)
         out = self.classifier(fused)
         return out
+        
